@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background: rgb(191, 238, 191);
+  background: rgba(255, 255, 0, 0.707);
 }
 
 ul {
@@ -20,9 +20,15 @@ ul {
   margin: 0 auto;
   padding: 0 30px;
 }
+.container2 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: flex-end;
+}
 
 .main {
-  color: rgba(2, 2, 167, 0.984);
+  color: rgba(0, 0, 0, 0.984);
   line-height: 2.5;
 }
 
